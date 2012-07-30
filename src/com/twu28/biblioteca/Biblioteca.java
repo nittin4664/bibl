@@ -23,6 +23,9 @@ public class Biblioteca {
 
     public static void main(String arg[]) {
 
+        //Biblioteca biblioteca = new Biblioteca();
+        //biblioteca.openLibrary();
+
         Menu menu = new Menu();
         menu.addOption("show book");
         menu.addOption("show Movie");

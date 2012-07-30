@@ -19,6 +19,10 @@ public class Librarian {
         booksOnShelf =shelf.booksOnShelf();
         for(int i=0;i< booksOnShelf.size();i++){
 
+            /*
+             * Here the librarian is doing all the hard work. Instead, the librarian should
+             * delegate to the shelf and the shelf should search for a book on the shelf.
+             */
            if(bookName.equals(booksOnShelf.get(i).asString()))
             {
                 String referenceTOBook=booksOnShelf.get(i).asString();

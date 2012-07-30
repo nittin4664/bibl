@@ -11,8 +11,15 @@ import java.util.ArrayList;
  */
 public class Shelf {
 
+    /*
+     * How about two shelves, one for books and one for movies?
+     */
     ArrayList<Book> booksOnShelf = new ArrayList<Book>();
     ArrayList<Movie> moviesOnShelf = new ArrayList<Movie>();
+
+    /*
+     * Do we need those? They are redundant data.
+     */
     ArrayList<String> bookAsString = new ArrayList<String>();
     ArrayList<String> movieAsString = new ArrayList<String>();
 
@@ -42,4 +49,15 @@ public class Shelf {
     public ArrayList<Book> booksOnShelf() {
         return booksOnShelf;
     }
+
+    /*
+     *
+     */
+    public String toString() {
+        return "a string representation of this object";
+    }
+
+    public String toBookString() { return "foo"; }
+
+    public String toMovieString() { return "bar"; }
 }
