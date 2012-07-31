@@ -10,15 +10,20 @@ import junit.framework.TestCase;
  * To change this template use File | Settings | File Templates.
  */
 public class MovieShelfTest extends TestCase {
+    public void testMovieAsStingsFor0Movies() throws Exception {
+        MovieShelf movieShelf=new MovieShelf();
+        assertEquals("",movieShelf.movieAsStings());
+    }
     public void testMovieAsStingsFor1Movie() throws Exception {
         MovieShelf movieShelf=new MovieShelf();
         movieShelf.addMovie(new Movie("the dark night","christopher","9"));
         assertEquals("the dark night \t christopher \t 9|",movieShelf.movieAsStings());
     }
-    public void testMovieAsStingsFor2Movies() throws Exception {
+    public void testMovieAsStingsForMoreThen1Movies() throws Exception {
         MovieShelf movieShelf=new MovieShelf();
         movieShelf.addMovie(new Movie("the dark night","christopher","9"));
         movieShelf.addMovie(new Movie("the dark night rises","christopher","8"));
         assertEquals("the dark night \t christopher \t 9|the dark night rises \t christopher \t 8|",movieShelf.movieAsStings());
     }
+
 }
