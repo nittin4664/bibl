@@ -105,7 +105,7 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="66" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.8121547">
+            <state line="48" column="48" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.5524862">
               <folding />
             </state>
           </provider>
@@ -317,23 +317,7 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testBooksAsStingsForMoreThen1Book">
-    <configuration default="false" name="Biblioteca" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.Biblioteca" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="biblioteca" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LibraryTest.testLendBookWhenShelfNotEmpty">
     <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -407,6 +391,28 @@
       <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.LibraryTest" />
       <option name="METHOD_NAME" value="testBooksAsStingsForMoreThen1Book" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LibraryTest.testLendBookWhenShelfNotEmpty" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.LibraryTest" />
+      <option name="METHOD_NAME" value="testLendBookWhenShelfNotEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -586,11 +592,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testbookinfo" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.bookinfo.bookinfo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Biblioteca" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieShelfTest.testMovieAsStingsFor1Movie" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsFor1Book" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsForMoreThen1Book" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieShelfTest.testMovieAsStingsFor1Movie" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsFor1Book" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsForMoreThen1Book" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.LibraryTest.testLendBookWhenShelfNotEmpty" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -823,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="66" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.8121547">
+        <state line="48" column="48" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.5524862">
           <folding />
         </state>
       </provider>
