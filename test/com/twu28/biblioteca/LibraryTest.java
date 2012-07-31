@@ -40,7 +40,7 @@ public class LibraryTest extends TestCase {
     @Test
     public void testLendBookWhenShelfEmpty(){
      Library library=new Library();
-       assertEquals(null,library.lendBook("only time will tell"));
+       assertEquals("book not found",library.lendBook("only time will tell"));
     }
     @Test
     public void testLendBookWhenShelfNotEmpty(){

@@ -105,7 +105,7 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="48" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.5524862">
+            <state line="40" column="31" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.8232044">
               <folding />
             </state>
           </provider>
@@ -317,7 +317,7 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testLendBookWhenShelfNotEmpty">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -829,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="48" selection-start="1898" selection-end="1898" vertical-scroll-proportion="0.5524862">
+        <state line="40" column="31" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.8232044">
           <folding />
         </state>
       </provider>
