@@ -21,10 +21,16 @@ public class BookTest {
         assertEquals("Sins of the Father",book.getName());
 
     }
+    @Test
     public  void testSetName(){
         Book book= new Book("Sins of the Father");
         book.setName("only time will tell");
         assertEquals("only time will tell",book.getName());
 
+    }
+    @Test
+    public  void testIsReserved(){
+        Book book= new Book("Sins of the Father");
+        assertEquals(false,book.getReservation());
     }
 }

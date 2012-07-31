@@ -10,20 +10,18 @@ package com.twu28.biblioteca;
 public class Book {
 
     private  String name;
-
-
+    private boolean reservation =false;
     public Book(String bookName){
         this.name = bookName;
     }
-
-
     public String getName()
     {
         return name;
     }
-
-
     public void setName(String bookName) {
         name=bookName;
+    }
+    public boolean getReservation() {
+        return reservation;
     }
 }

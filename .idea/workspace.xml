@@ -95,25 +95,25 @@
       <file leaf-file-name="BookShelfTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="84" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
+            <state line="33" column="88" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Book.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+            <state line="22" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.4834254">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="573" selection-end="573" vertical-scroll-proportion="0.6712707">
+            <state line="33" column="37" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -623,7 +623,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="2" width="1364" height="725" extended-state="0" />
+    <frame x="1" y="2" width="1364" height="725" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -764,16 +764,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+        <state line="31" column="40" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+        <state line="47" column="63" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -787,21 +787,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="84" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+        <state line="33" column="88" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="573" selection-end="573" vertical-scroll-proportion="0.6712707">
+        <state line="33" column="37" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.4834254">
           <folding />
         </state>
       </provider>
