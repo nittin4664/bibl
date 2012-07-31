@@ -15,14 +15,14 @@ public class LibraryTest extends TestCase {
     public void testMoviesAsStingsFor1Movie(){
         Library library=new Library();
         library.addMovieToShelf(new Movie("the dark night","christopher","9"));
-        assertEquals("the dark night \t christopher \t 9|", library.moviesAsStings());
+        assertEquals("the dark night \t christopher \t 9|", library.moviesAsString());
     }
     @Test
     public void testMoviesAsStingsForMoreThen1Movie(){
         Library library=new Library();
         library.addMovieToShelf(new Movie("the dark night","christopher","9"));
         library.addMovieToShelf(new Movie("the dark night rises","christopher","8"));
-        assertEquals("the dark night \t christopher \t 9|the dark night rises \t christopher \t 8|", library.moviesAsStings());
+        assertEquals("the dark night \t christopher \t 9|the dark night rises \t christopher \t 8|", library.moviesAsString());
     }
 
 }

@@ -17,13 +17,20 @@ public class LibrarySystem {
      this.menu=menu;
     this.library=library;
     }
-    public static void display(ArrayList<String> toDisplay) {
+    public  void display(ArrayList<String> toDisplay) {
         for (int i = 0; i < toDisplay.size(); i++)
             System.out.println(toDisplay.get(i));
     }
 
-    private static void display(String toDisplay) {
-        System.out.println(toDisplay);
+    public void display(String toDisplay) {
+
+        for (int i = 0; i < (toDisplay.toCharArray()).length; i++){
+            if(toDisplay.toCharArray()[i]=='|')
+                System.out.println("");
+            else
+                System.out.print((toDisplay.toCharArray())[i]);
+        }
+        System.out.println("");
     }
 
     public void startLibrarySystem(){
@@ -35,10 +42,10 @@ public class LibrarySystem {
             opt = in.nextInt();
             switch (menu.optionSelected(opt)) {
                 case 1:
-                    display(library.booksAsStrings());
+                    display(library.booksAsString());
                     break;
                 case 2:
-                    display(library.moviesAsStings());
+                    display(library.moviesAsString());
                     break;
                 case 3:
                     display(library.lendBook("sins of the father"));

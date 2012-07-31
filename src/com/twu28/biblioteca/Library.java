@@ -58,11 +58,11 @@ public class Library {
     }
 
 
-    public String booksAsStrings() {
+    public String booksAsString() {
        return bookShelf.bookAsString();
     }
 
-    public  String moviesAsStings() {
+    public String moviesAsString() {
         return movieShelf.movieAsStings();
     }
 

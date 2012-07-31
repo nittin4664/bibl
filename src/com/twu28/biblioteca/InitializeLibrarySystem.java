@@ -22,12 +22,12 @@ public class InitializeLibrarySystem {
         library.addBookToShelf(new Book("only time will tell"));
         library.addBookToShelf(new Book("sins of the father"));
 
-        library.addMovieToShelf(new Movie("movie1","direc1", "0"));
-        library.addMovieToShelf(new Movie("movie2","direc2", "1"));
-        library.addMovieToShelf(new Movie("movie3","direc3", "11"));
-        library.addMovieToShelf(new Movie("movie4","direc4", "8"));
-        library.addMovieToShelf(new Movie("movie5","direc5", "2"));
-        library.addMovieToShelf(new Movie("movie6","direc6", "11"));
+        library.addMovieToShelf(new Movie("the dark night","christopher","9"));
+        library.addMovieToShelf(new Movie("the dark night rises","christopher","8"));
+        library.addMovieToShelf(new Movie("the usual suspects","bryan swinger", "11"));
+        library.addMovieToShelf(new Movie("forest grump","robert", "8"));
+        library.addMovieToShelf(new Movie("a few good men","rob reiner", "2"));
+        library.addMovieToShelf(new Movie("rockey","john avildsen", "11"));
 
         library.addNewCustomer(new Customer("librarian","password"));
         library.addNewCustomer(new Customer("nitin","abc123"));
