@@ -12,10 +12,10 @@ public class Book {
     private  String name;
 
 
-    public Book(String name)
-    {
-      this.name = name;
+    public Book(String bookName){
+        this.name = bookName;
     }
+
 
     public String getName()
     {
@@ -23,4 +23,7 @@ public class Book {
     }
 
 
+    public void setName(String bookName) {
+        name=bookName;
+    }
 }
