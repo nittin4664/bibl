@@ -33,13 +33,7 @@ public class BookShelf {
     }
 
 
-    public ArrayList<Book> booksOnShelf() {
-        return booksOnShelf;
-    }
 
-    /*
-     *
-     */
     public String bookAsString() {
         String booksAsString="";
         for(int i=0;i<booksOnShelf.size();i++)
@@ -48,7 +42,8 @@ public class BookShelf {
         return booksAsString;
     }
 
-    public String searchBook(String bookName) {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+
+    public String searchBook(String s) {
+        return booksOnShelf.get(0).getName();  //To change body of created methods use File | Settings | File Templates.
     }
 }

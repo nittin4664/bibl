@@ -22,6 +22,11 @@ public class BookShelfTest extends TestCase {
         bookShelf.addBook(new Book("the jackal"));
         assertEquals("sins of the father|the jackal|", bookShelf.bookAsString());
     }
+    public void testSearchBookForSingleBook(){
+        BookShelf bookShelf=new BookShelf();
+        bookShelf.addBook(new Book("sins of the father"));
+        assertEquals("sins of the father",bookShelf.searchBook("sins of the father"));
+    }
 
 
 }
