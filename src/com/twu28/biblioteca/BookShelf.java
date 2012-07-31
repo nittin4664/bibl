@@ -43,7 +43,11 @@ public class BookShelf {
     }
 
 
-    public String searchBook(String s) {
-        return booksOnShelf.get(0).getName();  //To change body of created methods use File | Settings | File Templates.
+    public String searchBook(String bookName) {
+        for(int i=0;i<booksOnShelf.size();i++){
+            if(bookName.equals( booksOnShelf.get(i).getName()))
+        return booksOnShelf.get(i).getName();
+        }
+        return null;
     }
 }

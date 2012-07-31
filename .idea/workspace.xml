@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1a5894-77a8-4cb2-9ab0-d1a795b46f1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
     </list>
@@ -87,7 +86,7 @@
       <file leaf-file-name="BookShelf.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="44" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
+            <state line="51" column="5" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +95,7 @@
       <file leaf-file-name="BookShelfTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="835" selection-end="835" vertical-scroll-proportion="0.34254143">
+            <state line="33" column="84" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.4834254">
               <folding />
             </state>
           </provider>
@@ -132,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
       </list>
     </option>
   </component>
@@ -775,14 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
+        <state line="51" column="5" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="835" selection-end="835" vertical-scroll-proportion="0.34254143">
+        <state line="33" column="84" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.4834254">
           <folding />
         </state>
       </provider>
