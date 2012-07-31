@@ -37,5 +37,10 @@ public class LibraryTest extends TestCase {
         library.addBookToShelf(new Book("sins of the father"));
         assertEquals("only time will tell|sins of the father|", library.booksAsString());
     }
+    @Test
+    public void testLendBookWhenShelfEmpty(){
+     Library library=new Library();
+       assertEquals(null,library.lendBook("only time will tell"));
+    }
 
 }
