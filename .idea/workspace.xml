@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1a5894-77a8-4cb2-9ab0-d1a795b46f1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/InitializeLibrarySystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
     </list>
     <ignored path="biblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +71,27 @@
       <file leaf-file-name="Biblioteca.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="15" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibrarySystem.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="16" selection-start="696" selection-end="696" vertical-scroll-proportion="0.63529414">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitializeLibrarySystem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/InitializeLibrarySystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="34" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,16 +100,16 @@
       <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="29" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
+            <state line="64" column="25" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LibraryTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="81" selection-start="820" selection-end="820" vertical-scroll-proportion="0.8121547">
+            <state line="15" column="84" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomer.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomers.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java" />
@@ -149,9 +171,11 @@
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/InitializeLibrarySystem.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
       </list>
     </option>
   </component>
@@ -290,7 +314,7 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="Application.Biblioteca">
     <configuration default="false" name="MovieShelfTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -619,7 +643,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="2" width="1364" height="725" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -703,16 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.3313783" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="437" column="0" selection-start="16069" selection-end="16069" vertical-scroll-proportion="0.90340906" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="16" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" />
@@ -772,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="15" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
@@ -795,14 +802,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="29" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
+        <state line="64" column="25" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="81" selection-start="820" selection-end="820" vertical-scroll-proportion="0.8121547">
+        <state line="15" column="84" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/InitializeLibrarySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="34" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="696" selection-end="696" vertical-scroll-proportion="0.63529414">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
