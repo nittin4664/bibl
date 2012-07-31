@@ -39,12 +39,12 @@ public class Biblioteca {
         library.addBookToShelf(new Book("book2"));
         library.addBookToShelf(new Book("book3"));
 
-        library.addMovieToShelf(new Movie("movie1","direc1"), "0");
-        library.addMovieToShelf(new Movie("movie2","direc2"), "1");
-        library.addMovieToShelf(new Movie("movie3","direc3"), "11");
-        library.addMovieToShelf(new Movie("movie4","direc4"), "8");
-        library.addMovieToShelf(new Movie("movie5","direc5"), "2");
-        library.addMovieToShelf(new Movie("movie6","direc6"), "11");
+        library.addMovieToShelf(new Movie("movie1","direc1", "0"));
+        library.addMovieToShelf(new Movie("movie2","direc2", "1"));
+        library.addMovieToShelf(new Movie("movie3","direc3", "11"));
+        library.addMovieToShelf(new Movie("movie4","direc4", "8"));
+        library.addMovieToShelf(new Movie("movie5","direc5", "2"));
+        library.addMovieToShelf(new Movie("movie6","direc6", "11"));
 
         library.addNewCustomer(new Customer("librarian","password"));
         library.addNewCustomer(new Customer("nitin","abc123"));
@@ -58,10 +58,10 @@ public class Biblioteca {
             opt = in.nextInt();
             switch (menu.optionSelected(opt)) {
                 case 1:
-                    display(library.booksAsStrings());
+                    //display(library.booksAsStrings());
                     break;
                 case 2:
-                    display(library.moviesAsStrings());
+                    //display(library.moviesAsStrings());
                     break;
                 case 3:
                     display(library.lendBook("book2"));

@@ -14,6 +14,10 @@ public class Movie {
     public Movie(String name, String director){
         this.name=name;
         this.director=director;
+    } public Movie(String name, String director,String rating){
+        this.name=name;
+        this.director=director;
+        this.rating=rating;
     }
 
     public void setRating(String rating){
@@ -21,7 +25,7 @@ public class Movie {
     }
 
     public String asString(){
-        return name+"\t"+director+"\t"+rating;
+        return name+" \t "+director+" \t "+rating;
     }
 
     public String getRating() {

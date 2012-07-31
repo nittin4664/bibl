@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1a5894-77a8-4cb2-9ab0-d1a795b46f1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
+      <change type="DELETED" beforePath="C:\Users\NITIN\Documents\GitHub\bibl\out\production\biblioteca\com\twu28\biblioteca\Librarian.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\NITIN\Documents\GitHub\bibl\out\production\biblioteca\com\twu28\biblioteca\Shelf.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\NITIN\Documents\GitHub\bibl\src\com\twu28\biblioteca\Librarian.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\NITIN\Documents\GitHub\bibl\src\com\twu28\biblioteca\Shelf.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Biblioteca.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Biblioteca.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Book.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Library.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Library.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Movie.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu28/biblioteca/Movie.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
     </list>
     <ignored path="biblioteca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,57 +84,43 @@
       <file leaf-file-name="Biblioteca.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="641" selection-end="641" vertical-scroll-proportion="0.34134007">
+            <state line="42" column="27" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.05">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
+      <file leaf-file-name="BookShelf.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="34" column="124" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shelf.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java">
+      <file leaf-file-name="BookShelfTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#362#368#0" expanded="true" />
-                <element signature="e#422#429#0" expanded="true" />
-                <element signature="e#549#557#0" expanded="true" />
-                <element signature="e#612#620#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="32" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+            <state line="22" column="52" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Librarian.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java">
+      <file leaf-file-name="MovieShelf.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="89" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
+            <state line="24" column="54" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java">
+      <file leaf-file-name="MovieShelfTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="12" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +129,25 @@
       <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+            <state line="27" column="41" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="53" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,36 +178,39 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/library.java" />
-        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/testmenu.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/option.java" />
-        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/optionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/book.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Option.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomer.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomers.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" />
+        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java" />
+        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" />
+        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
-    <option name="y" value="22" />
-    <option name="width" value="1664" />
-    <option name="height" value="939" />
+    <option name="y" value="2" />
+    <option name="width" value="1364" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,20 +238,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteca" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -297,21 +304,34 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/twu28/biblioteca" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/twu28/biblioteca" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -321,31 +341,13 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Biblioteca">
-    <configuration default="false" name="library" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.library" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="biblioteca" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="movieTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager" selected="JUnit.MovieShelfTest.testMovieAsStings">
+    <configuration default="false" name="BookTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.movieTest" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.BookTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -362,13 +364,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="libraryTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="BookShelfTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.libraryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.BookShelfTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -385,15 +386,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="optionTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="BookShelfTest.testAsString" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.optionTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.BookShelfTest" />
+      <option name="METHOD_NAME" value="testAsString" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -408,26 +408,47 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Biblioteca" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.Biblioteca" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration default="false" name="All in biblioteca" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testbookinfo" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="biblioteca" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
+      <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MovieShelfTest.testMovieAsStings" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.MovieShelfTest" />
+      <option name="METHOD_NAME" value="testMovieAsStings" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -454,8 +475,25 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -487,26 +525,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -526,7 +545,6 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -552,7 +570,6 @@
       </method>
     </configuration>
     <configuration default="false" name="testbookinfo" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -575,7 +592,6 @@
       <method />
     </configuration>
     <configuration default="false" name="bookinfo.bookinfo" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -598,13 +614,13 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Application.library" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.movieTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.libraryTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.optionTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Biblioteca" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.testbookinfo" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.bookinfo.bookinfo" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.testbookinfo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.bookinfo.bookinfo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookShelfTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BookShelfTest.testAsString" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All in biblioteca" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MovieShelfTest.testMovieAsStings" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -659,29 +675,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1664" height="939" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="2" width="1364" height="725" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24942264" sideWeight="0.6590106" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32566372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25230768" sideWeight="0.23498233" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14851485" sideWeight="0.997555" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6017699" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18167822" sideWeight="0.6884956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31150442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32566372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,9 +765,64 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Customer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" />
+        <state line="91" column="19" selection-start="3608" selection-end="3608" vertical-scroll-proportion="0.3313783" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="0" selection-start="16069" selection-end="16069" vertical-scroll-proportion="0.90340906" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="217" column="18" selection-start="10342" selection-end="10342" vertical-scroll-proportion="0.3323263" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="124" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="52" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="54" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="41" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="53" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomers.java">
@@ -761,54 +830,14 @@
         <state line="22" column="10" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Librarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="89" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#362#368#0" expanded="true" />
-            <element signature="e#422#429#0" expanded="true" />
-            <element signature="e#549#557#0" expanded="true" />
-            <element signature="e#612#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="34" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Biblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="641" selection-end="641" vertical-scroll-proportion="0.34134007">
+        <state line="42" column="27" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.05">
           <folding />
         </state>
       </provider>

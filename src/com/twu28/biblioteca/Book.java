@@ -9,14 +9,15 @@ package com.twu28.biblioteca;
  */
 public class Book {
 
-    String name;
+    private  String name;
+
 
     public Book(String name)
     {
       this.name = name;
     }
 
-    public String asString()
+    public String getName()
     {
         return name;
     }

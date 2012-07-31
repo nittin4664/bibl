@@ -11,30 +11,25 @@ import java.util.ArrayList;
  */
 public class Library {
     static int aLibraryNo =1111111;
-    Shelf shelf =new Shelf();
-    Librarian librarian=new Librarian(shelf);
+    BookShelf bookShelf =new BookShelf();
+    MovieShelf movieShelf=new MovieShelf();
     ExistingCustomers existingCustomers=new ExistingCustomers();
     static String permissionGivenTo =null;
 
-    public ArrayList<String> booksAsStrings(){
-        return  shelf.booksAsString();
-    }
-    public ArrayList<String> moviesAsStrings(){
-        return  shelf.moviesAsStrings();
-    }
+
     public  void addBookToShelf(Book book){
-       shelf.addBook(book);
+       bookShelf.addBook(book);
     }
-    public  void addMovieToShelf(Movie movie, String rating){
-        if(Integer.parseInt(rating)>0&&Integer.parseInt(rating)<11)
-            movie.setRating(rating);
+    public  void addMovieToShelf(Movie movie){
+        if(Integer.parseInt(movie.getRating())>0&&Integer.parseInt(movie.getRating())<11)
+            movie.setRating(movie.getRating());
         else
             movie.setRating("N/A");
 
-        shelf.addMovie(movie);
+        movieShelf.addMovie(movie);
     }
     public  String lendBook(String bookName){
-      String book=librarian.searchBook(bookName);
+      String book= bookShelf.searchBook(bookName);
         if(book==null)
             return "book not found";
         else
