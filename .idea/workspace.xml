@@ -105,7 +105,7 @@
       <file leaf-file-name="LibraryTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="56" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.57734805">
+            <state line="58" column="41" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.24861878">
               <folding />
             </state>
           </provider>
@@ -317,29 +317,7 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
-    <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="biblioteca" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.LibraryTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.LibraryTest.testLendBookWhenBooksMoreThenOneAndBookPresent">
     <configuration default="false" name="MovieShelfTest.testMovieAsStingsFor1Movie" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="biblioteca" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -413,6 +391,28 @@
       <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
       <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.LibraryTest" />
       <option name="METHOD_NAME" value="testLendBookWhenShelfNotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LibraryTest.testLendBookWhenBooksMoreThenOneAndBookPresent" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="biblioteca" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.twu28.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu28.biblioteca.LibraryTest" />
+      <option name="METHOD_NAME" value="testLendBookWhenBooksMoreThenOneAndBookPresent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -592,11 +592,11 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.testbookinfo" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.bookinfo.bookinfo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieShelfTest.testMovieAsStingsFor1Movie" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsFor1Book" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsForMoreThen1Book" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.LibraryTest.testLendBookWhenShelfNotEmpty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieShelfTest.testMovieAsStingsFor1Movie" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsFor1Book" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.testBooksAsStingsForMoreThen1Book" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.LibraryTest.testLendBookWhenShelfNotEmpty" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.LibraryTest.testLendBookWhenBooksMoreThenOneAndBookPresent" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -651,7 +651,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="2" width="1364" height="725" extended-state="1" />
+    <frame x="1" y="2" width="1364" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -668,7 +668,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18167822" sideWeight="0.6884956" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31150442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31150442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -829,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="56" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.57734805">
+        <state line="58" column="41" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.24861878">
           <folding />
         </state>
       </provider>
