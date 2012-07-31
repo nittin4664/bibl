@@ -17,34 +17,34 @@ public class Library {
     static String permissionGivenTo =null;
 
 
-    public  void addBookToShelf(Book book){
-       bookShelf.addBook(book);
+    public  void addBookToShelf(Book book){ //to add books to shelf
+        bookShelf.addBook(book);
     }
-    public  void addMovieToShelf(Movie movie){
-        if(Integer.parseInt(movie.getRating())>0&&Integer.parseInt(movie.getRating())<11)
+    public  void addMovieToShelf(Movie movie){  //to add movies to the shelf
+        if(Integer.parseInt(movie.getRating())>0&&Integer.parseInt(movie.getRating())<11)//check if the rating is within the limits
             movie.setRating(movie.getRating());
         else
             movie.setRating("N/A");
 
-        movieShelf.addMovie(movie);
+        movieShelf.addMovie(movie);//adding movie to the shelf
     }
-    public  String lendBook(String bookName){
-      String book= bookShelf.searchBook(bookName);
+    public  String lendBook(String bookName){  //function t lend book out to a customer
+        String book= bookShelf.searchBook(bookName);
         if(book==null)
             return "book not found";
         else
-           return "book "+book+"  has been reserved";
+            return "book "+book+"  has been reserved";
     }
-    public void addNewCustomer(Customer customer){
-      customer.setLibraryNo(autoGenerateLibraryNo());
-      existingCustomers.addNewCustomer(customer);
+    public void addNewCustomer(Customer customer){//function to add customers to customer list
+        customer.setLibraryNo(autoGenerateLibraryNo());
+        existingCustomers.addNewCustomer(customer);
     }
-    public String autoGenerateLibraryNo(){
-       String libraryNo;
-       libraryNo=(Integer.toString(aLibraryNo)).substring(0,3)+"-"+(Integer.toString(aLibraryNo++)).substring(3);
+    public String autoGenerateLibraryNo(){ // function to auto generate library no
+        String libraryNo;
+        libraryNo=(Integer.toString(aLibraryNo)).substring(0,3)+"-"+(Integer.toString(aLibraryNo++)).substring(3);
         return libraryNo;
     }
-    public  String customerLogin(String libraryNo,String password){
+    public  String customerLogin(String libraryNo,String password){//function to confirm login of a customer
         if(existingCustomers.isCustomerPresent(libraryNo,password)){
             permissionGivenTo =libraryNo;
             return permissionGivenTo +" successful login";
@@ -53,16 +53,16 @@ public class Library {
             return "try again";
     }
 
-    public  String permissionTo(){
+    public  String permissionTo(){ //function to get permission
         return permissionGivenTo;
     }
 
 
-    public String booksAsString() {
-       return bookShelf.bookAsString();
+    public String booksAsString() {//function returning  books on shelf as a string
+        return bookShelf.bookAsString();
     }
 
-    public String moviesAsString() {
+    public String moviesAsString() { //function returning movies on the shelf as string
         return movieShelf.movieAsStings();
     }
 

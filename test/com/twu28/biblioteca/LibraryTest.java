@@ -24,5 +24,18 @@ public class LibraryTest extends TestCase {
         library.addMovieToShelf(new Movie("the dark night rises","christopher","8"));
         assertEquals("the dark night \t christopher \t 9|the dark night rises \t christopher \t 8|", library.moviesAsString());
     }
+    @Test
+    public void testBooksAsStingsFor1Book(){
+        Library library=new Library();
+        library.addBookToShelf(new Book("only time will tell"));
+        assertEquals("only time will tell|", library.booksAsString());
+    }
+    @Test
+    public void testBooksAsStingsForMoreThen1Book(){
+        Library library=new Library();
+        library.addBookToShelf(new Book("only time will tell"));
+        library.addBookToShelf(new Book("sins of the father"));
+        assertEquals("only time will tell|sins of the father|", library.booksAsString());
+    }
 
 }

@@ -9,7 +9,7 @@ package com.twu28.biblioteca;
  */
 public class InitializeLibrarySystem {
     public void start(){
-        Menu menu=new Menu();
+        Menu menu=new Menu(); //initializing menu options
         menu.addOption("show book");
         menu.addOption("show Movie");
         menu.addOption("reserve book");
@@ -17,7 +17,7 @@ public class InitializeLibrarySystem {
         menu.addOption("Check Library No");
         menu.addOption("exit");
 
-        Library library=new Library();
+        Library library=new Library(); //initializing library and its objects
         library.addBookToShelf(new Book("the jackal"));
         library.addBookToShelf(new Book("only time will tell"));
         library.addBookToShelf(new Book("sins of the father"));
@@ -32,7 +32,8 @@ public class InitializeLibrarySystem {
         library.addNewCustomer(new Customer("librarian","password"));
         library.addNewCustomer(new Customer("nitin","abc123"));
         library.addNewCustomer(new Customer("xyz","password"));
-        LibrarySystem librarySystem=new LibrarySystem(menu,library);
+
+        LibrarySystem librarySystem=new LibrarySystem(menu,library); //initializing the library system
         librarySystem.startLibrarySystem();
     }
 }

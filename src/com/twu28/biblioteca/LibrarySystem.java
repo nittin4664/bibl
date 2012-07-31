@@ -14,8 +14,8 @@ public class LibrarySystem {
     Menu menu;
     Library library;
     public  LibrarySystem(Menu menu,Library library){
-     this.menu=menu;
-    this.library=library;
+        this.menu=menu;
+        this.library=library;
     }
     public  void display(ArrayList<String> toDisplay) {
         for (int i = 0; i < toDisplay.size(); i++)
