@@ -42,12 +42,14 @@ public class LibraryTest extends TestCase {
      Library library=new Library();
        assertEquals("book not found",library.lendBook("only time will tell"));
     }
+
     @Test
-    public void testLendBookWhenShelfNotEmpty(){
+    public void testLendBookWhenShelfNotEmptyButBookNotPresent(){
         Library library=new Library();
         library.addBookToShelf(new Book("only time will tell"));
-        assertEquals("book only time will tell  has been reserved",library.lendBook("only time will tell"));
+        assertEquals("book not found",library.lendBook("sins of the father"));
     }
+
 
 
 }
