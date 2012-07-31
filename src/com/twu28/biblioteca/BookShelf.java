@@ -15,25 +15,10 @@ public class BookShelf {
      * How about two shelves, one for books and one for movies?
      */
     ArrayList<Book> booksOnShelf = new ArrayList<Book>();
-
-
-    /*
-     * Do we need those? They are redundant data.
-     */
-
-
-    public void addBook(Book book)
-    {
+    public void addBook(Book book){
         booksOnShelf.add(book);
 
     }
-    public void removeReferenceToBook(int position) {
-
-        booksOnShelf.remove(position);
-    }
-
-
-
     public String bookAsString() {
         String booksAsString="";
         for(int i=0;i<booksOnShelf.size();i++)
@@ -41,12 +26,15 @@ public class BookShelf {
 
         return booksAsString;
     }
-
-
     public String searchBook(String bookName) {
         for(int i=0;i<booksOnShelf.size();i++){
             if(bookName.equals( booksOnShelf.get(i).getName()))
-        return booksOnShelf.get(i).getName();
+            {
+                if(booksOnShelf.get(i).getReservation()==false){
+                    booksOnShelf.get(i).setReservation(true);
+                    return booksOnShelf.get(i).getName();
+                }
+            }
         }
         return null;
     }

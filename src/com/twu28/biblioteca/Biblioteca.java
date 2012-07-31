@@ -35,9 +35,9 @@ public class Biblioteca {
         menu.addOption("exit");
 
         Library library = new Library();
-        library.addBookToShelf(new Book("book1"));
-        library.addBookToShelf(new Book("book2"));
-        library.addBookToShelf(new Book("book3"));
+        library.addBookToShelf(new Book("the jackal"));
+        library.addBookToShelf(new Book("only time will tell"));
+        library.addBookToShelf(new Book("sins of the father"));
 
         library.addMovieToShelf(new Movie("movie1","direc1", "0"));
         library.addMovieToShelf(new Movie("movie2","direc2", "1"));
@@ -58,13 +58,13 @@ public class Biblioteca {
             opt = in.nextInt();
             switch (menu.optionSelected(opt)) {
                 case 1:
-                    //display(library.booksAsStrings());
+                    display(library.booksAsStrings());
                     break;
                 case 2:
                     //display(library.moviesAsStrings());
                     break;
                 case 3:
-                    display(library.lendBook("book2"));
+                    display(library.lendBook("sins of the father"));
                     break;
                 case 4:
                     display(library.customerLogin("111-1112","abc123"));

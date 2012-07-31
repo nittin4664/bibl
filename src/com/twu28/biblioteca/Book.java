@@ -24,4 +24,8 @@ public class Book {
     public boolean getReservation() {
         return reservation;
     }
+
+    public void setReservation(boolean reservation) {
+        this.reservation=reservation;
+    }
 }

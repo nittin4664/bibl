@@ -33,4 +33,10 @@ public class BookTest {
         Book book= new Book("Sins of the Father");
         assertEquals(false,book.getReservation());
     }
+    @Test
+    public  void testSetReservation(){
+        Book book= new Book("Sins of the Father");
+        book.setReservation(true);
+        assertEquals(false,book.getReservation());
+    }
 }

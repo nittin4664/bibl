@@ -58,4 +58,7 @@ public class Library {
     }
 
 
+    public String booksAsStrings() {
+       return bookShelf.bookAsString();
+    }
 }
