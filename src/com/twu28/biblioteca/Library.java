@@ -61,4 +61,8 @@ public class Library {
     public String booksAsStrings() {
        return bookShelf.bookAsString();
     }
+
+    public  String moviesAsStings() {
+        return movieShelf.movieAsStings();
+    }
 }

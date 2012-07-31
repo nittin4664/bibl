@@ -8,13 +8,10 @@ package com.twu28.biblioteca;
  * To change this template use File | Settings | File Templates.
  */
 public class Movie {
-    String name;
-    String director;
-    String rating;
-    public Movie(String name, String director){
-        this.name=name;
-        this.director=director;
-    } public Movie(String name, String director,String rating){
+    private  String name;
+    private  String director;
+    private  String rating;
+     public Movie(String name, String director,String rating){
         this.name=name;
         this.director=director;
         this.rating=rating;
