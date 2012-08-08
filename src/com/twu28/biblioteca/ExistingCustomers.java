@@ -9,6 +9,13 @@ import java.util.ArrayList;
  * Time: 8:01 AM
  * To change this template use File | Settings | File Templates.
  */
+
+/*
+ * BookShelf and MovieShelf are very good class names which express the intent of the classes.
+ *
+ * Could you find a better name for this class?
+ *
+ */
 public class ExistingCustomers {
     ArrayList<Customer> customersList=new ArrayList<Customer>();
     public void addNewCustomer(Customer customer){

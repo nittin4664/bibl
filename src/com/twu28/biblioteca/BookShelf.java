@@ -11,14 +11,19 @@ import java.util.ArrayList;
  */
 public class BookShelf {
 
-    /*
-     * How about two shelves, one for books and one for movies?
-     */
     ArrayList<Book> booksOnShelf = new ArrayList<Book>();
     public void addBook(Book book){
         booksOnShelf.add(book);
 
     }
+
+    /*
+     * Have a look at Object.toString(), this is the standard method to be overridden to return a String
+     * representation of an object.
+     *
+     * Also, give booksOnShelf.toString() a try, Java collection classes come with nice String representations.
+     *
+     */
     public String bookAsString() {
         String booksAsString="";
         for(int i=0;i<booksOnShelf.size();i++)
@@ -26,6 +31,10 @@ public class BookShelf {
 
         return booksAsString;
     }
+
+    /*
+     * When searching for a book, what should be the return type?
+     */
     public String searchBook(String bookName) {
         for(int i=0;i<booksOnShelf.size();i++){
             if(bookName.equals( booksOnShelf.get(i).getName()))

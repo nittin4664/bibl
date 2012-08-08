@@ -10,6 +10,12 @@ import java.util.ArrayList;
  * Time: 12:36 PM
  * To change this template use File | Settings | File Templates.
  */
+
+/*
+ * Please test this class.
+ *
+ * The way to add options i
+ */
 public class Menu {
     ArrayList<String> optionList=new ArrayList<String>();
     static  int count=1;

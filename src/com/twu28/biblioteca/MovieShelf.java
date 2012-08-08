@@ -19,9 +19,15 @@ public class MovieShelf {
 
     }
 
+    /*
+     * Same as book shelf, think naming.
+     */
     public String movieAsStings(){
         String moviesAsString="";
         for(int i=0;i<moviesOnShelf.size();i++)
+            /*
+             * Have a look at the StringBuilder class for concatenating String objects.
+             */
             moviesAsString+=moviesOnShelf.get(i).asString()+"|";
 
         return moviesAsString;

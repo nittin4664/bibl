@@ -11,6 +11,9 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class LibrarySystem {
+    /*
+     * Think visibility, this is not private enough.
+     */
     Menu menu;
     Library library;
     public  LibrarySystem(Menu menu,Library library){
@@ -36,7 +39,12 @@ public class LibrarySystem {
     public void startLibrarySystem(){
         while (true) {
             display("plz select a option");
+
+            /*
+             * Which object should know how to display the menu?
+             */
             display(menu.optionList());
+
             int opt;
             Scanner in = new Scanner(System.in);
             opt = in.nextInt();
@@ -48,9 +56,15 @@ public class LibrarySystem {
                     display(library.moviesAsString());
                     break;
                 case 3:
+                    /*
+                     * Doh, this is a boring library. I can only borrow one book!
+                     */
                     display(library.lendBook("sins of the father"));
                     break;
                 case 4:
+                    /*
+                     * Hang on, my library number is 111-1117! Cannot get in :(
+                     */
                     display(library.customerLogin("111-1112","abc123"));
                     break;
                 case 5:

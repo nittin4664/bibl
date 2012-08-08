@@ -8,6 +8,15 @@ package com.twu28.biblioteca;
  * To change this template use File | Settings | File Templates.
  */
 public class InitializeLibrarySystem {
+
+    /*
+     * Is this method still doing too much? Which two things could be separated?
+     *
+     * Why would you want to separate them?
+     *
+     * Hint: is there any test for this class?
+     *
+     */
     public void start(){
         Menu menu=new Menu(); //initializing menu options
         menu.addOption("show book");

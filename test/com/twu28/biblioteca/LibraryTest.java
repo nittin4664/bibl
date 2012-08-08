@@ -18,6 +18,14 @@ public class LibraryTest extends TestCase {
         assertEquals("the dark night \t christopher \t 9|", library.moviesAsString());
     }
     @Test
+    /*
+     * It is good to test for variable numbers in collections as you are doing here.
+     *
+     * However, does this test belong here? Could you think of another test class where this test would fit better?
+     *
+     * Same for books further below.
+     *
+     */
     public void testMoviesAsStingsForMoreThen1Movie(){
         Library library=new Library();
         library.addMovieToShelf(new Movie("the dark night","christopher","9"));

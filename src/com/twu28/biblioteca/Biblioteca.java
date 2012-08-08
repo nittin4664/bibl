@@ -11,6 +11,9 @@ import java.util.Scanner;
  * To change this template use File | Settings | File Templates.
  */
 public class Biblioteca {
+    /*
+     * Well done, this is as short as it gets.
+     */
     public static void main(String arg[]) {
         InitializeLibrarySystem initializeLibrarySystem=new InitializeLibrarySystem();
         initializeLibrarySystem.start();

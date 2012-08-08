@@ -18,6 +18,10 @@ public class Book {
     {
         return name;
     }
+
+    /*
+     * Do we need this setter method?
+     */
     public void setName(String bookName) {
         name=bookName;
     }

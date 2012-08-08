@@ -17,10 +17,17 @@ public class Movie {
         this.rating=rating;
     }
 
+    /*
+     * Do we need a setter for the rating? Could we do without one? Why would we want to do that?
+     *
+     */
     public void setRating(String rating){
         this.rating=rating;
     }
 
+    /*
+     * Same as book, there is a better name for this method.
+     */
     public String asString(){
         return name+" \t "+director+" \t "+rating;
     }

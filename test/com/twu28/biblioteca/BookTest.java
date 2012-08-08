@@ -12,6 +12,12 @@ import static org.junit.Assert.assertEquals;
  * Time: 5:46 PM
  * To change this template use File | Settings | File Templates.
  */
+
+/*
+ * These tests are less important. Constructors and setters only need to be tested when they apply some business
+ * logic, such as validation.
+ *
+ */
 public class BookTest {
 
     @Test
