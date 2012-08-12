@@ -15,16 +15,13 @@ public class Movie {
      public Movie(String name, String director,String rating){
         this.name=name;
         this.director=director;
-        this.rating=rating;
+        this.rating=ratingWithin1to10( rating);
     }
 
     /*
      * Do we need a setter for the rating? Could we do without one? Why would we want to do that?
      *
      */
-    public void setRating(String rating){
-        this.rating=rating;
-    }
 
     /*
      * Same as book, there is a better name for this method.
@@ -33,7 +30,12 @@ public class Movie {
         return name+" \t "+director+" \t "+rating;
     }
 
-    public String getRating() {
-        return rating;
+
+
+    String ratingWithin1to10(String rating) {
+        if(Integer.parseInt(rating)>0&&Integer.parseInt(rating)<11)//check if the rating is within the limits
+            return rating;
+        else
+            return "N/A";
     }
 }

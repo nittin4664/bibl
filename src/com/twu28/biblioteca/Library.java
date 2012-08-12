@@ -20,17 +20,6 @@ public class Library {
         bookShelf.addABook(book);
     }
     public  void addMovieToShelf(Movie movie){  //to add movies to the shelf
-        /*
-         * Good validation, however, does it belong to this class?
-         *
-         * Can you think of a better place for the validation?
-         *
-         */
-        if(Integer.parseInt(movie.getRating())>0&&Integer.parseInt(movie.getRating())<11)//check if the rating is within the limits
-            movie.setRating(movie.getRating());
-        else
-            movie.setRating("N/A");
-
         movieShelf.addMovie(movie);//adding movie to the shelf
     }
 
