@@ -14,17 +14,12 @@ public class LibrarySystem {
     /*
      * Think visibility, this is not private enough.
      */
-    Menu menu;
-    Library library;
+    private Menu menu;
+    private Library library;
     public  LibrarySystem(Menu menu,Library library){
         this.menu=menu;
         this.library=library;
     }
-    public  void display(ArrayList<String> toDisplay) {
-        for (int i = 0; i < toDisplay.size(); i++)
-            System.out.println(toDisplay.get(i));
-    }
-
     public void display(String toDisplay) {
 
         for (int i = 0; i < (toDisplay.toCharArray()).length; i++){
@@ -43,7 +38,7 @@ public class LibrarySystem {
             /*
              * Which object should know how to display the menu?
              */
-            display(menu.optionList());
+            display(menu.toString());
 
             int opt;
             String bookName;
@@ -77,7 +72,7 @@ public class LibrarySystem {
                         display(library.getPermissionGivenTo());
                     else
                         display("Talk to librarian");
-                    ;break;
+                    break;
                 case 6:
                     System.exit(1);
                     break;

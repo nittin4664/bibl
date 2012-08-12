@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * The way to add options i
  */
 public class Menu {
-    ArrayList<String> optionList=new ArrayList<String>();
+    private ArrayList<String> optionList=new ArrayList<String>();
     static  int count=1;
     public void addOption(String option)
     {
@@ -35,15 +35,21 @@ public class Menu {
         return false;
     }
     public int optionSelected(int option){
-        if(isOptionAvailable(option))
-        {
+        if(isOptionAvailable(option)){
             System.out.println("option selected is " +optionList.get(option-1));
             return option;
         }
-        else
-        {
+        else{
             System.out.println("wrong option selected");
             return 0;
         }
+    }
+    @Override
+    public String toString(){
+        String optionListAsString="";
+        for(String option:optionList){
+            optionListAsString+=option+"\n";
+        }
+        return  optionListAsString;
     }
 }
