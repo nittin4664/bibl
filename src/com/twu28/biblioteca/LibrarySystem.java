@@ -60,10 +60,11 @@ public class LibrarySystem {
                 case 3:
                     display("enter the name of the book u wish to take home");
                     bookName = inString.nextLine();
-                    if(library.lendBook(bookName)==null)
+                    Book book=library.lendBook(bookName);
+                    if(book==null)
                     display("book not found");
                     else
-                    display("book "+(library.lendBook(bookName)).toString()+"  has been reserved");
+                    display("book "+book.toString()+"  has been reserved");
                     break;
                 case 4:
                     /*

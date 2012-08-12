@@ -30,8 +30,9 @@ public class BookShelf {
     
     public Book searchBook(String bookName) {
         for(int i=0;i<booksOnShelf.size();i++){
-            if(bookName.equals( booksOnShelf.get(i).toString()))            {
-                return booksOnShelf.get(i);
+            if(bookName.equals( booksOnShelf.get(i).toString())){
+                if( booksOnShelf.get(i).getReservation()==false)
+                    return booksOnShelf.get(i);
             }
         }
         return null;

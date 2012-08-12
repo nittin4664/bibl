@@ -29,6 +29,7 @@ public class Library {
      */
     public Book lendBook(String bookName){  //function t lend book out to a customer
         Book book= bookShelf.searchBook(bookName);
+
         if(book==null)
             return null;
         else {
