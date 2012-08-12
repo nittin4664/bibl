@@ -12,24 +12,18 @@ import java.util.ArrayList;
 public class MovieShelf {
     private ArrayList<Movie> moviesOnShelf = new ArrayList<Movie>();
 
-
-    public void addMovie(Movie movie)
-    {
+    public void addMovie(Movie movie){
         moviesOnShelf.add(movie);
 
     }
+    @Override
+    public String toString(){
+        String movieShelfAsString = moviesOnShelf.toString();
 
-    /*
-     * Same as book shelf, think naming.
-     */
-    public String movieAsStings(){
-        String moviesAsString="";
-        for(int i=0;i<moviesOnShelf.size();i++)
-            /*
-             * Have a look at the StringBuilder class for concatenating String objects.
-             */
-            moviesAsString+=moviesOnShelf.get(i).toString()+"|";
+         movieShelfAsString= movieShelfAsString.replace(", ","\n");
+         movieShelfAsString= movieShelfAsString.replace("[","");
+         movieShelfAsString= movieShelfAsString.replace("]","");
 
-        return moviesAsString;
+        return  movieShelfAsString;
     }
 }

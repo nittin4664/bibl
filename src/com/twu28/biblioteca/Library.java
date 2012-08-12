@@ -71,12 +71,11 @@ public class Library {
 
 
     public String booksAsString() {//function returning  books on shelf as a string
-       // System.out.println(bookShelf.toString());
         return bookShelf.toString();
     }
 
     public String moviesAsString() { //function returning movies on the shelf as string
-        return movieShelf.movieAsStings();
+        return movieShelf.toString();
     }
 
 }

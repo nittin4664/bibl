@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="8c1a5894-77a8-4cb2-9ab0-d1a795b46f1d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" afterPath="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/LibrarySystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" afterPath="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -72,37 +70,37 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Library.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="9" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.0">
+            <state line="77" column="29" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookShelfTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
+      <file leaf-file-name="MovieShelf.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="1297" selection-end="1297" vertical-scroll-proportion="1.4267242">
+            <state line="20" column="53" selection-start="486" selection-end="486" vertical-scroll-proportion="0.54711246">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookShelf.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
+      <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+            <state line="19" column="4" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieShelfTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="58" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,7 +120,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Shelf.java" />
-        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/ExistingCustomers.java" />
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/LibraryTest.java" />
@@ -132,11 +129,12 @@
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/InitializeLibrarySystem.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" />
-        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
         <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java" />
         <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java" />
+        <option value="$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java" />
+        <option value="$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java" />
       </list>
     </option>
   </component>
@@ -287,7 +285,7 @@
       <recent name="com.twu28.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookShelfTest">
+  <component name="RunManager" selected="Application.Biblioteca">
     <configuration default="false" name="MovieShelfTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="snapshooter" />
@@ -651,7 +649,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13101605" sideWeight="0.7135827" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27952754" sideWeight="0.97727275" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27952754" sideWeight="0.97727275" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -743,50 +741,56 @@
         <state line="421" column="47" selection-start="14028" selection-end="14038" vertical-scroll-proportion="0.45846155" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.8027842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="451" selection-end="451" vertical-scroll-proportion="0.50759876" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="32" selection-start="457" selection-end="457" vertical-scroll-proportion="0.35494882" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="22" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+        <state line="23" column="5" selection-start="486" selection-end="486" vertical-scroll-proportion="0.57327586">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/BookShelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+        <state line="28" column="5" selection-start="394" selection-end="705" vertical-scroll-proportion="0.87643677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/MovieShelfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="58" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="9" selection-start="2526" selection-end="2526" vertical-scroll-proportion="0.0">
+        <state line="77" column="29" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu28/biblioteca/BookShelfTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1297" selection-end="1297" vertical-scroll-proportion="1.4267242">
+        <state line="19" column="4" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu28/biblioteca/MovieShelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="53" selection-start="486" selection-end="486" vertical-scroll-proportion="0.54711246">
           <folding />
         </state>
       </provider>
