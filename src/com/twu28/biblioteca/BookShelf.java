@@ -17,9 +17,17 @@ public class BookShelf {
     public void addABook(Book book){
         booksOnShelf.add(book);
     }
-    public String bookAsString() {
-        return booksOnShelf.toString();
+    @Override
+    public String toString(){
+        String booksAsStrings = booksOnShelf.toString();
+
+        booksAsStrings=booksAsStrings.replace(", ","\n");
+        booksAsStrings=booksAsStrings.replace("[","");
+        booksAsStrings=booksAsStrings.replace("]","");
+        
+        return booksAsStrings;
     }
+    
     public Book searchBook(String bookName) {
         for(int i=0;i<booksOnShelf.size();i++){
             if(bookName.equals( booksOnShelf.get(i).toString()))            {

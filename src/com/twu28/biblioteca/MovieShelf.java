@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 public class MovieShelf {
-    ArrayList<Movie> moviesOnShelf = new ArrayList<Movie>();
+    private ArrayList<Movie> moviesOnShelf = new ArrayList<Movie>();
 
 
     public void addMovie(Movie movie)
@@ -28,7 +28,7 @@ public class MovieShelf {
             /*
              * Have a look at the StringBuilder class for concatenating String objects.
              */
-            moviesAsString+=moviesOnShelf.get(i).asString()+"|";
+            moviesAsString+=moviesOnShelf.get(i).toString()+"|";
 
         return moviesAsString;
     }

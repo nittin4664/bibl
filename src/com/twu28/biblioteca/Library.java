@@ -64,16 +64,15 @@ public class Library {
             return "try again";
     }
 
-    /*
-     * Please consider Java naming conventions, there is a better name for this method.
-     */
-    public  String permissionTo(){ //function to get permission
+
+    public  String getPermissionGivenTo(){ //function to get permission
         return permissionGivenTo;
     }
 
 
     public String booksAsString() {//function returning  books on shelf as a string
-        return bookShelf.bookAsString();
+       // System.out.println(bookShelf.toString());
+        return bookShelf.toString();
     }
 
     public String moviesAsString() { //function returning movies on the shelf as string

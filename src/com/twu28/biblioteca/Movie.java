@@ -26,9 +26,12 @@ public class Movie {
     /*
      * Same as book, there is a better name for this method.
      */
-    public String asString(){
-        return name+" \t "+director+" \t "+rating;
+    @Override
+    public String toString()
+    {
+       return name+" \t "+director+" \t "+rating;
     }
+
 
 
 

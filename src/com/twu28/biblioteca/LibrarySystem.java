@@ -68,8 +68,8 @@ public class LibrarySystem {
                     display(library.customerLogin("111-1112","abc123"));
                     break;
                 case 5:
-                    if(library.permissionTo()!=null)
-                        display(library.permissionTo());
+                    if(library.getPermissionGivenTo()!=null)
+                        display(library.getPermissionGivenTo());
                     else
                         display("Talk to librarian");
                     ;break;
