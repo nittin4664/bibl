@@ -1,7 +1,5 @@
 package com.twu28.biblioteca;
 
-import java.util.ArrayList;
-
 /**
  * Created with IntelliJ IDEA.
  * User: NITIN
@@ -11,19 +9,15 @@ import java.util.ArrayList;
  */
 public class Library {
 
-    /*
-     * Think about encapsulation. What should be the visibility of those members?
-     *
-     */
-    static int aLibraryNo =1111111;
-    BookShelf bookShelf =new BookShelf();
-    MovieShelf movieShelf=new MovieShelf();
-    ExistingCustomers existingCustomers=new ExistingCustomers();
-    static String permissionGivenTo =null;
 
+    private static int aLibraryNo =1111111;
+    private BookShelf bookShelf = new BookShelf();
+    private MovieShelf movieShelf=new MovieShelf();
+    private ExistingCustomers existingCustomers=new ExistingCustomers();
+    private static String permissionGivenTo =null;
 
     public  void addBookToShelf(Book book){ //to add books to shelf
-        bookShelf.addBook(book);
+        bookShelf.addABook(book);
     }
     public  void addMovieToShelf(Movie movie){  //to add movies to the shelf
         /*
@@ -45,14 +39,14 @@ public class Library {
      *
      */
     public  String lendBook(String bookName){  //function t lend book out to a customer
-        String book= bookShelf.searchBook(bookName);
+        Book book= bookShelf.searchBook(bookName);
         if(book==null)
             return "book not found";
-        else
-            /*
-             * Has the book actually been reserved?
-             */
-            return "book "+book+"  has been reserved";
+        else {
+            book.setReservation(true);
+            return "book "+book.toString()+"  has been reserved";
+        }
+
     }
     public void addNewCustomer(Customer customer){//function to add customers to customer list
         /*

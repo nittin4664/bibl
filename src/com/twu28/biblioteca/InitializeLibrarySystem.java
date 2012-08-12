@@ -27,10 +27,11 @@ public class InitializeLibrarySystem {
         menu.addOption("exit");
 
         Library library=new Library(); //initializing library and its objects
+
         library.addBookToShelf(new Book("the jackal"));
         library.addBookToShelf(new Book("only time will tell"));
         library.addBookToShelf(new Book("sins of the father"));
-
+        
         library.addMovieToShelf(new Movie("the dark night","christopher","9"));
         library.addMovieToShelf(new Movie("the dark night rises","christopher","8"));
         library.addMovieToShelf(new Movie("the usual suspects","bryan swinger", "11"));

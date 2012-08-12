@@ -11,6 +11,7 @@ public class Movie {
     private  String name;
     private  String director;
     private  String rating;
+
      public Movie(String name, String director,String rating){
         this.name=name;
         this.director=director;

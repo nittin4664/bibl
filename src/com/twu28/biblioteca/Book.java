@@ -11,19 +11,17 @@ public class Book {
 
     private  String name;
     private boolean reservation =false;
+
     public Book(String bookName){
         this.name = bookName;
     }
-    public String getName()
-    {
-        return name;
+    @Override
+    public String toString() {
+        return name; 
     }
-
-    
     public boolean getReservation() {
         return reservation;
     }
-
     public void setReservation(boolean reservation) {
         this.reservation=reservation;
     }

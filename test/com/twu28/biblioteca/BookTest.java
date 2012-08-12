@@ -21,14 +21,20 @@ import static org.junit.Assert.assertEquals;
 public class BookTest {
 
     @Test
-    public  void testIsReserved(){
+    public  void testIsAvailable(){
         Book book= new Book("Sins of the Father");
         assertEquals(false,book.getReservation());
+    }
+    @Test
+    public  void testIsReserved(){
+        Book book= new Book("Sins of the Father");
+        book.setReservation(true);
+        assertEquals(true,book.getReservation());
     }
     @Test
     public  void testSetReservation(){
         Book book= new Book("Sins of the Father");
         book.setReservation(true);
-        assertEquals(false,book.getReservation());
+        assertEquals(true,book.getReservation());
     }
 }
