@@ -14,10 +14,12 @@ public class Book {
     public Book(String bookName){
         this.name = bookName;
     }
-    
-    public void setName(String bookName) {
-        name=bookName;
+    public String getName()
+    {
+        return name;
     }
+
+    
     public boolean getReservation() {
         return reservation;
     }
