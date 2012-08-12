@@ -27,15 +27,14 @@ public class Library {
      * Think about the signature. Can you think of different types to use as input and output of this method?
      *
      */
-    public  String lendBook(String bookName){  //function t lend book out to a customer
+    public Book lendBook(String bookName){  //function t lend book out to a customer
         Book book= bookShelf.searchBook(bookName);
         if(book==null)
-            return "book not found";
+            return null;
         else {
             book.setReservation(true);
-            return "book "+book.toString()+"  has been reserved";
+            return book;
         }
-
     }
     public void addNewCustomer(Customer customer){//function to add customers to customer list
         /*
@@ -63,17 +62,12 @@ public class Library {
         else
             return "try again";
     }
-
-
     public  String getPermissionGivenTo(){ //function to get permission
         return permissionGivenTo;
     }
-
-
     public String booksAsString() {//function returning  books on shelf as a string
         return bookShelf.toString();
     }
-
     public String moviesAsString() { //function returning movies on the shelf as string
         return movieShelf.toString();
     }

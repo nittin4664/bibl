@@ -21,12 +21,12 @@ import static junit.framework.Assert.assertEquals;
  */
 public class BookShelfTest  {
     @Test
-    public void testAsStringFor0book() throws Exception {
+    public void testBookAsStringFor0book() throws Exception {
         BookShelf bookShelf=new BookShelf();
         assertEquals("", bookShelf.toString());
     }
     @Test
-    public void testAsStringFor1book() throws Exception {
+    public void testBookAsStringFor1book() throws Exception {
         BookShelf bookShelf=new BookShelf();
         bookShelf.addABook(new Book("sins of the father"));
      assertEquals("sins of the father", bookShelf.toString());

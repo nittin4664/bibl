@@ -15,62 +15,15 @@ public class LibraryTest extends TestCase {
     public void testMoviesAsStingsFor1Movie(){
         Library library=new Library();
         library.addMovieToShelf(new Movie("the dark night","christopher","9"));
-        assertEquals("the dark night \t christopher \t 9|", library.moviesAsString());
+        assertEquals("the dark night \t christopher \t 9", library.moviesAsString());
     }
-    @Test
-    /*
-     * It is good to test for variable numbers in collections as you are doing here.
-     *
-     * However, does this test belong here? Could you think of another test class where this test would fit better?
-     *
-     * Same for books further below.
-     *
-     */
-    public void testMoviesAsStingsForMoreThen1Movie(){
-        Library library=new Library();
-        library.addMovieToShelf(new Movie("the dark night","christopher","9"));
-        library.addMovieToShelf(new Movie("the dark night rises","christopher","8"));
-        assertEquals("the dark night \t christopher \t 9|the dark night rises \t christopher \t 8|", library.moviesAsString());
-    }
+
     @Test
     public void testBooksAsStingsFor1Book(){
         Library library=new Library();
         library.addBookToShelf(new Book("only time will tell"));
-        assertEquals("only time will tell|", library.booksAsString());
+        assertEquals("only time will tell", library.booksAsString());
     }
-    @Test
-    public void testBooksAsStingsForMoreThen1Book(){
-        Library library=new Library();
-        library.addBookToShelf(new Book("only time will tell"));
-        library.addBookToShelf(new Book("sins of the father"));
-        assertEquals("only time will tell|sins of the father|", library.booksAsString());
-    }
-    @Test
-    public void testLendBookWhenShelfEmpty(){
-     Library library=new Library();
-       assertEquals("book not found",library.lendBook("only time will tell"));
-    }
-    @Test
-    public void testLendBookWhenShelfNotEmptyAndBookPresent(){
-        Library library=new Library();
-        library.addBookToShelf(new Book("only time will tell"));
-        assertEquals("book only time will tell  has been reserved",library.lendBook("only time will tell"));
-    }
-
-    @Test
-    public void testLendBookWhenShelfNotEmptyButBookNotPresent(){
-        Library library=new Library();
-        library.addBookToShelf(new Book("only time will tell"));
-        assertEquals("book not found",library.lendBook("sins of the father"));
-    }
-    @Test
-    public void testLendBookWhenBooksMoreThenOneAndBookPresent(){
-        Library library=new Library();
-        library.addBookToShelf(new Book("only time will tell"));
-        library.addBookToShelf(new Book("sins of the father"));
-        assertEquals("book sins of the father  has been reserved",library.lendBook("sins of the father"));
-    }
-
 
 
 }

@@ -46,6 +46,8 @@ public class LibrarySystem {
             display(menu.optionList());
 
             int opt;
+            String bookName;
+            Scanner inString = new Scanner(System.in);
             Scanner in = new Scanner(System.in);
             opt = in.nextInt();
             switch (menu.optionSelected(opt)) {
@@ -56,10 +58,12 @@ public class LibrarySystem {
                     display(library.moviesAsString());
                     break;
                 case 3:
-                    /*
-                     * Doh, this is a boring library. I can only borrow one book!
-                     */
-                    display(library.lendBook("sins of the father"));
+                    display("enter the name of the book u wish to take home");
+                    bookName = inString.nextLine();
+                    if(library.lendBook(bookName)==null)
+                    display("book not found");
+                    else
+                    display("book "+(library.lendBook(bookName)).toString()+"  has been reserved");
                     break;
                 case 4:
                     /*
