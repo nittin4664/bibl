@@ -14,14 +14,7 @@ public class Book {
     public Book(String bookName){
         this.name = bookName;
     }
-    public String getName()
-    {
-        return name;
-    }
-
-    /*
-     * Do we need this setter method?
-     */
+    
     public void setName(String bookName) {
         name=bookName;
     }
